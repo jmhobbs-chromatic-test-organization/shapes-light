@@ -30,36 +30,3 @@ export const Slice = (props: Props) => (
     <path d="M92 89V3c0-3-2.056-3-3-3C39.294 0 0 39.294 0 89c0 0 0 3 3 3h86a3 3 0 003-3z" />
   </Shape>
 );
-<<<<<<< HEAD
-=======
-
-export const Square = (props: Props) => (
-  <Shape
-    viewBox="0 0 90 90"
-    xmlns="http://www.w3.org/2000/svg"
-    color="#1EA7FD"
-    {...props}
-    style={{ borderRadius: 5, ...props.style }}
-  >
-    <path d="M0 0h90v90H0z" />
-  </Shape>
-);
-
-export const Triangle = (props: Props) => (
-  <Shape viewBox="0 0 96 88" xmlns="http://www.w3.org/2000/svg" color="#FFAE00" {...props}>
-    <path d="M50.63 1.785l44.928 81.77A3 3 0 0192.928 88H3.072a3 3 0 01-2.629-4.445l44.929-81.77a3 3 0 015.258 0z" />
-  </Shape>
-);
-
-export const T = (props: Props) => (
-  <Shape viewBox="0 0 92 62" xmlns="http://www.w3.org/2000/svg" color="#FC521F" {...props}>
-    <path d="M63 3v25a3 3 0 003 3h23a3 3 0 013 3v25a3 3 0 01-3 3H3a3 3 0 01-3-3V34a3 3 0 013-3h24a3 3 0 003-3V3a3 3 0 013-3h27a3 3 0 013 3z" />
-  </Shape>
-);
-
-export const Z = (props: Props) => (
-  <Shape viewBox="0 0 56 90" xmlns="http://www.w3.org/2000/svg" color="#6F2CAC" {...props}>
-    <path d="M28 3v25a3 3 0 003 3h22a3 3 0 013 3v53a3 3 0 01-3 3H31a3 3 0 01-3-3V62a3 3 0 00-3-3H3a3 3 0 01-3-3V3a3 3 0 013-3h22a3 3 0 013 3z" />
-  </Shape>
-);
->>>>>>> Initial commit
