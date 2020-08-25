@@ -34,6 +34,6 @@
     "build-storybook": "build-storybook",
     "chromatic": "CHROMATIC_INDEX_URL=https://index.chromatic.com chromatic --project-token 2gsw6ht6am",
     "chromatic-dev": "CHROMATIC_INDEX_URL=https://index.dev-chromatic.com chromatic",
-    "chromatic-staging": "CHROMATIC_INDEX_URL=https://index.staging-chromatic.com chromatic --project-token 71wybmryxr8"
+    "chromatic-staging": "CHROMATIC_INDEX_URL=https://index.staging-chromatic.com chromatic --project-token wu94j15cmd7"
   }
 }
