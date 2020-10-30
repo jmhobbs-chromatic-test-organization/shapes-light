@@ -6,7 +6,7 @@ import Tile from './Tile';
 const withTile: DecoratorFunction<ReactNode> = (storyFn) => <Tile>{storyFn()}</Tile>;
 
 export default {
-  title: 'components|Tile',
+  title: 'components/Tile',
   decorators: [withTile],
 };
 

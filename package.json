@@ -14,14 +14,14 @@
   },
   "devDependencies": {
     "@babel/core": "7.7.5",
-    "@storybook/addon-actions": "5.2.8",
-    "@storybook/addon-links": "5.2.8",
-    "@storybook/addons": "5.2.8",
-    "@storybook/preset-typescript": "1.1.0",
-    "@storybook/react": "5.2.8",
+    "@storybook/addon-actions": "^6.1.0-alpha.33",
+    "@storybook/addon-essentials": "^6.1.0-alpha.33",
+    "@storybook/addon-links": "^6.1.0-alpha.33",
+    "@storybook/react": "^6.1.0-alpha.33",
     "babel-loader": "8.0.6",
     "chromatic": "5.1.0",
     "react-docgen-typescript-loader": "3.6.0",
+    "react-is": "^17.0.1",
     "ts-loader": "6.2.1",
     "typescript": "3.7.3"
   },
@@ -30,10 +30,10 @@
   },
   "scripts": {
     "prepare": "relative-deps",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
     "chromatic": "CHROMATIC_INDEX_URL=https://index.chromatic.com chromatic --project-token 2gsw6ht6am",
     "chromatic-dev": "CHROMATIC_INDEX_URL=https://index.dev-chromatic.com chromatic",
-    "chromatic-staging": "CHROMATIC_INDEX_URL=https://index.staging-chromatic.com chromatic --project-token wu94j15cmd7"
+    "chromatic-staging": "CHROMATIC_INDEX_URL=https://index.staging-chromatic.com chromatic --project-token wu94j15cmd7",
+    "storybook": "start-storybook -p 6006 --no-dll",
+    "build-storybook": "build-storybook --no-dll"
   }
 }
